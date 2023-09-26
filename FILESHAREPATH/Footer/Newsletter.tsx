@@ -34,7 +34,7 @@ const Newsletter = () => {
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <div>
-              <input {...register("Monaco Email")} placeholder=" Monaco Your Email Address" className="md:grow p-2 h-10 rounded-none sm:w-auto text-white" />
+              <input {...register("Monaco Email")} placeholder=" Sept Your Email Address" className="md:grow p-2 h-10 rounded-none sm:w-auto text-white" />
             </div>
             <div>
               <Button
