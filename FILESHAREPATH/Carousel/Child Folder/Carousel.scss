@@ -1,0 +1,22 @@
+.carousel {
+  .control-dots .dot {
+    border: 1px solid #fff;
+
+    &.selected {
+      background: #000;
+    }
+  }
+
+  .left-arrow,
+  .right-arrow {
+    svg path {
+      fill: #000;
+    }
+
+  /*  &:hover {
+      svg path {
+        fill: #fff;
+      }
+    }*/
+  }
+}
